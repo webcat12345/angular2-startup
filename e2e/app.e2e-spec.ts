@@ -1,10 +1,10 @@
-import { CoreUIPage } from './app.po';
+import { GenesisUiPage } from './app.po';
 
-describe('core-ui App', function() {
-  let page: CoreUIPage;
+describe('genesis-ui App', function() {
+  let page: GenesisUiPage;
 
   beforeEach(() => {
-    page = new CoreUIPage();
+    page = new GenesisUiPage();
   });
 
   it('should display message saying app works', () => {
